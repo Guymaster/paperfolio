@@ -19,7 +19,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  color: rgba(51, 51, 51, 0.05);
+  color: rgba(51, 51, 51, 0.07);
 }
 
 .bgCard {
@@ -89,4 +89,23 @@ body::-webkit-scrollbar {
 .jobTitle {
   font-size: 25px;
   font-weight: bold;
+}
+
+.jobInfo {
+  width: 60%;
+}
+
+.imgHeader {
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+}
+
+.page h1 {
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+.page p {
+  margin: 30px 10px;
 }
