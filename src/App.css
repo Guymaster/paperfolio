@@ -66,6 +66,67 @@ body::-webkit-scrollbar {
 
 .socialBox {
   margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.socialBox div, .socialBox a {
+  transition: 0.3s;
+  padding: 2px 5px;
+}
+
+.socialBox:hover .contactMe {
+  transition: 0.5s;
+  background-color: #BBBBBB;
+  margin-right: 10px;
+}
+
+.emailBTN {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 100%;
+  opacity: 0;
+}
+
+.linkedinBTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 100%;
+  opacity: 0;
+}
+
+.githubBTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 100%;
+  opacity: 0;
+}
+
+.socialBox:hover .emailBTN, .socialBox:hover .githubBTN, .socialBox:hover .linkedinBTN {
+  transition: 0.5s;
+  position: relative;
+  right: 0px;
+  opacity: 1;
+  transition-timing-function: ease-out;
+}
+
+.socialBox a {
+  cursor: pointer;
+}
+
+.socialBox svg {
+  height: 30px;
+  width: 30px;
+  fill: rgba(51, 51, 51, 1);
+  position: relative;
+  top: 4px;
 }
 
 .jobBox {
@@ -84,6 +145,7 @@ body::-webkit-scrollbar {
   font-size: 120px;
   display: block;
   font-weight: bold;
+  text-align: end;
 }
 
 .jobTitle {
@@ -100,7 +162,6 @@ body::-webkit-scrollbar {
   height: 200px;
   background-color: gray;
 }
-
 .page h1 {
   font-size: 20px;
   margin: 15px 10px;
@@ -108,4 +169,33 @@ body::-webkit-scrollbar {
 
 .page p {
   margin: 30px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: #913831;
+}
+
+.socialBox a:hover svg {
+  fill: #913831;
+}
+
+.bgText div {
+  position: relative;
+  left: 360%;
+}
+
+@media (max-width: 1150px) {
+  .socialBox .emailBTN, .socialBox .githubBTN, .socialBox .linkedinBTN {
+    transition: 0.5s;
+    position: relative;
+    right: 0px;
+    opacity: 1;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+  }
 }
