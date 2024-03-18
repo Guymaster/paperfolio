@@ -183,9 +183,19 @@ a:hover {
   fill: #913831;
 }
 
-.bgText div {
-  position: relative;
-  left: 360%;
+.goToTop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  font-weight: bold;
+  display: none;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.goToTop:hover {
+  color: #913831;
 }
 
 @media (max-width: 1150px) {
@@ -247,5 +257,9 @@ a:hover {
   .name strong {
     margin-bottom: 50px;
     font-size: 100px;
+  }
+
+  .goToTop.visible {
+    display: block;
   }
 }
