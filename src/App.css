@@ -157,10 +157,23 @@ body::-webkit-scrollbar {
 }
 
 .imgHeader {
+  transition: 0.5s;
   width: 100%;
   height: 200px;
   background-color: gray;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
+
+.imgHeader:hover {
+  transition: 0.5s;
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+  opacity: 0.8;
+}
+
 .page h1 {
   font-size: 20px;
   margin: 15px 10px;

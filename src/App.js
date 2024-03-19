@@ -62,7 +62,7 @@ function App() {
       </div>
       <div className='pagesBox'>
         <div className='page'>
-          <img className='imgHeader' />
+          <img className='imgHeader' src='/zelda.png' />
           <h1>My Skills</h1>
           <p>
             I'm always learning new things in several domains. Thanks to Internet, I discover new insterresting ones everyday.
@@ -93,7 +93,7 @@ function App() {
           </p>
         </div>
         <div className='page'>
-          <img className='imgHeader' />
+          <img className='imgHeader' src='/zelda.png' />
           <h1>My Tech Stack</h1>
           <p>
             <strong>ReactJS, NextJS : </strong>
@@ -121,11 +121,11 @@ function App() {
           </p>
         </div>
         <div className='page'>
-          <img className='imgHeader' />
+          <img className='imgHeader' src='/zelda.png' />
           <h1>My Works</h1>
           <p>
             <strong> <a href='https://www.digitechafricaltd.com'>Hyperion 2</a> : </strong>
-            A SaaS reinsurance platform that permits to insurers and reinsurers to manage their activities
+            A SaaS reinsurance platform that permits to insurers and reinsurers to manage their activities. I have set up and managed microservices in this system.
             <br/>
           </p>
           <p>
