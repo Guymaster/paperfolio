@@ -169,8 +169,8 @@ body::-webkit-scrollbar {
 
 .imgHeader:hover {
   transition: 0.5s;
-  -webkit-filter: none; /* Safari 6.0 - 9.0 */
-  filter: none;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
   opacity: 0.8;
 }
 
@@ -238,6 +238,28 @@ a:hover {
   }
 }
 
+.page .imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page .imgBox img:hover {
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.page .imgBox img {
+  transition: 0.5s;
+  max-width: 100%;
+  margin: 3px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
 @media (max-width: 1050px) {
   .App {
     display: flex;
@@ -274,5 +296,33 @@ a:hover {
 
   .goToTop.visible {
     display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 1500px;
+  }
+
+  .name {
+    margin-top: 50px;
+    font-size: 60px;
+  }
+  
+  .name strong {
+    margin-bottom: 50px;
+    font-size: 80px;
+  }
+
+  .emailBTN {
+    font-size: 12px;
+  }
+
+  .jobTitle {
+    font-size: 17px;
+  }
+
+  .jobDesc {
+    font-size: 15px;
   }
 }

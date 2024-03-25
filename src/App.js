@@ -62,7 +62,7 @@ function App() {
       </div>
       <div className='pagesBox'>
         <div className='page'>
-          <img className='imgHeader' src='/zelda.png' />
+          <img className='imgHeader' src='/1.png' />
           <h1>My Skills</h1>
           <p>
             I'm always learning new things in several domains. Thanks to Internet, I discover new insterresting ones everyday.
@@ -93,7 +93,7 @@ function App() {
           </p>
         </div>
         <div className='page'>
-          <img className='imgHeader' src='/zelda.png' />
+          <img className='imgHeader' src='/2.png' />
           <h1>My Tech Stack</h1>
           <p>
             <strong>ReactJS, NextJS : </strong>
@@ -121,21 +121,42 @@ function App() {
           </p>
         </div>
         <div className='page'>
-          <img className='imgHeader' src='/zelda.png' />
+          <img className='imgHeader' src='/3.png' />
           <h1>My Works</h1>
           <p>
             <strong> <a href='https://www.digitechafricaltd.com'>Hyperion 2</a> : </strong>
             A SaaS reinsurance platform that permits to insurers and reinsurers to manage their activities. I have set up and managed microservices in this system.
+            <div className='imgBox'>
+              <img src='/hyp1.png' style={{width: "100%"}} />
+            </div>
             <br/>
           </p>
           <p>
-            <strong> <a href='https://www.digitechafricaltd.com'>Supermines</a> : </strong>
-            A modern multiplayer web version of the famous mineskeeper game
+            <strong> <a href='https://github.com/Guymaster/aq54-start'>AQ54</a> : </strong>
+            A data visualizer for SMART188 and SMART189 sensors. Gives measurements of air concentrations of fine particles in Abidjan.
+            <div className='imgBox'>
+              <img src='/aq541.png' style={{width: "100%"}} />
+            </div>
+            <br/>
+          </p>
+        </div>
+        <div className='page'>
+          <p>
+            <strong> <a href='https://mines-fawn.vercel.app'>Supermines</a> : </strong>
+            A modern multiplayer web version of the famous minesweeper game
+            <div className='imgBox'>
+              <img src='/mines1.png' style={{width: "72%"}} />
+              <img src='/mines2.png' style={{width: "27%"}} />
+            </div>
             <br/>
           </p>
           <p>
             <strong> <a href='https://guymaster.github.io/Battlefield2042'>Battlefield 2042</a> : </strong>
             A simple landing page for a video game
+            <div className='imgBox'>
+              <img src='/bf1.png' style={{width: "69%"}} />
+              <img src='/bf2.png' style={{width: "30%"}} />
+            </div>
             <br/>
           </p>
           <p>
@@ -146,20 +167,25 @@ function App() {
           <p>
             <strong> <a href='https://github.com/Guymaster/CIE'>ESATIC Club INFO</a> : </strong>
             A central web platform for the members, visitors and guests of the ESATIC's Computer Science club..
-            <br/>
+            <div className='imgBox'>
+              <img src='/cie1.png' style={{width: "71%"}} />
+              <div style={{
+                display: "flex",
+                flexDirection: "column"
+              }}>
+                <img src='/cie2.png' style={{width: "100%"}} />
+                <img src='/cie3.png' style={{width: "100%"}} />
+              </div>
+            </div>
           </p>
-          <p>
-            <strong> <a href='https://github.com/Guymaster/JeuQCM/tree/master'>QCM Game</a> : </strong>
-            An educative multiple choices questions game.
-            <br/>
-          </p>
+        </div>
+        <div className='page'>
           <p>
             <strong>MyTIC Management : </strong>
             A confidential ERP for a transport company. It permits to manages employees and activities
             <br/>
           </p>
         </div>
-        <div className='page'></div>
       </div>
       <div onClick={handleGoToTop} className={bgLeft < -500? 'goToTop visible' : 'goToTop'}>Go to Top</div>
     </div>
