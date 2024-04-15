@@ -29,7 +29,7 @@ function App() {
       <div className='infoBox'>
         <div className='socialBox'>
           <div className='contactMe'>Contact Me</div>
-          <a className='linkedinBTN' href='https://https://www.linkedin.com/in/guy-roger-thea'>
+          <a className='linkedinBTN' href='https://www.linkedin.com/in/guy-roger-thea'>
             <svg>
                 <g stroke="none">
                     <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
@@ -180,6 +180,21 @@ function App() {
           </p>
         </div>
         <div className='page'>
+          <p>
+            <strong> <a href='https://github.com/Guymaster/crypt'>Crypt</a> : </strong>
+            A mobile and desktop app for secured sensitive data storage. Based on symetric encryption and bcrypt hash.
+            <div className='imgBox'>
+              <img src='/crypt1.jpg' style={{width: "22%"}} />
+              <img src='/crypt2.png' style={{width: "78%"}} />
+            </div>
+          </p>
+          <p>
+            <strong> <a href='https://github.com/Guymaster/crypt'>Guyfolio</a> : </strong>
+            First version of my Portfolio (Flutter web app)
+            <div className='imgBox'>
+              <img src='/gf1.png' style={{width: "100%"}} />
+            </div>
+          </p>
           <p>
             <strong>MyTIC Management : </strong>
             A confidential ERP for a transport company. It permits to manages employees and activities
