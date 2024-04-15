@@ -189,7 +189,7 @@ function App() {
             </div>
           </p>
           <p>
-            <strong> <a href='https://github.com/Guymaster/crypt'>Guyfolio</a> : </strong>
+            <strong> <a href='https://guyfolio2525.web.app'>Guyfolio</a> : </strong>
             First version of my Portfolio (Flutter web app)
             <div className='imgBox'>
               <img src='/gf1.png' style={{width: "100%"}} />
