@@ -57,7 +57,7 @@ function App() {
             <div className='jobTitle'>Fullstack Developer</div>
             <div className='jobDesc'>I imagine and develop innovative software solutions for web and mobile platforms since 2020</div>
           </div>
-          <a className='resumeLink' href='https://drive.google.com/file/d/1eucfMDBZGcfdMjtwalWEGzrozDoyJt51/view?usp=drive_link'>My Resume</a>
+          <a className='resumeLink' href='https://www.linkedin.com/in/guy-roger-thea/details/experience/'>My Resume</a>
         </div>
       </div>
       <div className='pagesBox'>
@@ -139,8 +139,6 @@ function App() {
             </div>
             <br/>
           </p>
-        </div>
-        <div className='page'>
           <p>
             <strong> <a href='https://mines-fawn.vercel.app'>Supermines</a> : </strong>
             A modern multiplayer web version of the famous minesweeper game
@@ -178,8 +176,6 @@ function App() {
               </div>
             </div>
           </p>
-        </div>
-        <div className='page'>
           <p>
             <strong> <a href='https://github.com/Guymaster/crypt'>Crypt</a> : </strong>
             A mobile and desktop app for secured sensitive data storage. Based on symetric encryption and bcrypt hash.
