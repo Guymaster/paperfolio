@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/paperfolio/static/css/main.dd2c7b99.css",
-    "main.js": "/paperfolio/static/js/main.bb3a07bc.js",
+    "main.js": "/paperfolio/static/js/main.1a3fb553.js",
     "static/js/453.b37503d4.chunk.js": "/paperfolio/static/js/453.b37503d4.chunk.js",
     "static/media/Poppins-Medium.ttf": "/paperfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-Bold.ttf": "/paperfolio/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/paperfolio/index.html",
     "main.dd2c7b99.css.map": "/paperfolio/static/css/main.dd2c7b99.css.map",
-    "main.bb3a07bc.js.map": "/paperfolio/static/js/main.bb3a07bc.js.map",
+    "main.1a3fb553.js.map": "/paperfolio/static/js/main.1a3fb553.js.map",
     "453.b37503d4.chunk.js.map": "/paperfolio/static/js/453.b37503d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd2c7b99.css",
-    "static/js/main.bb3a07bc.js"
+    "static/js/main.1a3fb553.js"
   ]
 }
